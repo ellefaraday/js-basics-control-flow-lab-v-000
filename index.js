@@ -2,11 +2,11 @@
 function scuberGreetingForFeet (distance) {
   let message
   if (distance > 2500) {
-    message = 'No can do.'; 
+    message = 'No can do.';
   } else if (distance > 2000) {
     message = 'I will gladly take your thirty bucks.';
   } else if (distance < 400) {
     message = 'This one is on me!';
   }
-
+ return message;
 }
